@@ -2,6 +2,18 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
+  <script>        <!-- 이것만 있어도 자바 스크립트 실행됨 -->
+	var i = 'Hello';
+	var j = 10;
+
+	window.document.alert("<h1>화면출력</h1>");
+
+	function display(){
+			alert("함수 호출 성공");
+	}
+
+  </script>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <meta name="Generator" content="EditPlus®">
   <meta name="Author" content="">
   <meta name="Keywords" content="">
@@ -12,11 +24,13 @@
  <form method="post" action="">   <!-- 클릭하면 action 설정해놓은 곳으로 이동! -->
 	아이디:<input type="text" name="txt_id"><br>
 	비밀번호:<input type="text" name="txt_pw"><br>
-	<input type="submit" value="로그인" onclick="">    
+	<input type="button" value="로그인" onclick="javascript:display()">    
  </form>
  </body>
 </html>
 
 
 <!-- action: html -> 폼 양식 입력 -> *.py로 폼 입력 내용 전송!!
-처음 .py (교육 시켜 놓은 챗봇) -> html -> 새로운.py 로 해도 되고 같은 창에서도 가능! -->
+처음 .py (교육 시켜 놓은 챗봇) -> html -> 새로운.py 로 해도 되고 같은 창에서도 가능!
+Head (아이디) : GET 방식
+Body (비밀번호) : POST 방식 -->

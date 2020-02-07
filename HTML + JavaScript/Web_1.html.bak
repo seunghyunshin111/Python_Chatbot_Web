@@ -48,10 +48,7 @@
 		<input class="mys" type="text">
 		<input type="submit" value="Send" onclick="">
 	</form>
-		 <li>Jill</li>
-		 <li>Eve</li>
-		 <li>Adam</li>
-	</ul>
+	</ul><br><Br><Br><Br><Br><Br>
 	<div class="w3-bar w3-green">
 	 <div class="w3-bar-item">Seoul</div>
 	 <div class="w3-bar-item">Paris</div>
@@ -72,13 +69,7 @@
 	  <div class="w3-bar-item w3-hover-green">스페인</div>
 	  <div class="w3-bar-item w3-hover-blue">포르투갈</div>
 	</div>
-	<img src="이태리.jpg" width="1000" height="667" border="0" alt=""><br>
-	<img src="FF.png" width="80" height="80" border="0" alt="">
-	<img src="google.png" width="80" height="80" border="0" alt="">
-	<img src="ie.png" width="80" height="80" border="0" alt="">
-	<img src="Opera.png" width="80" height="80" border="0" alt="">
-	<img src="Safari.png" width="80" height="80" border="0" alt="">
-	<br>
+	<img src="이태리.jpg" width="1000" height="667" border="0" alt="">
 	<div class="mySlides">
 	<div class="w3-container w3-red">
 		<h1><b>In Campus</b></h1>

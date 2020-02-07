@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+  	div > span {                /* 모든 idv 바로 밑의 스팬 적용(cf. div span)  */      
+	
+	} 
+	div[class="bot"]{
+		color:blue;
+	}
+
+	.usr{
+		text-align:right;
+		<span>background-color:#ffff33</span>
+	}
+
+	.bot{
+		text-align:left;
+		width:200px;
+
+	}
+
+	span{
+		overflow: hidden;
+		background-color:#ffff33;
+	}
+  </style>
+ </head>
+ <body>
+  <h1>Sun's Chatbot</h1>
+	<div class = "usr">
+		<span>Hi hello</span>
+	</div>
+
+	<div class = "bot">
+		<span>Hello, I'm a bot</span>
+	</div>
+</body>
+</html>
+
+
+<!-- 자바 스크립트!! -->
+
