@@ -1,8 +1,10 @@
 # HTML + JavaScript
 
-## FrontEnd : User --> Web
 
-## User --> Browser(html, css, js) 
+
+## - FrontEnd : User --> Web
+
+## - User --> Browser(html, css, js) 
 
 ---
 
