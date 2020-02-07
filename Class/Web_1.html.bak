@@ -46,7 +46,7 @@
 		<br>
 		<label>장소</label>
 		<input class="mys" type="text">
-
+		<input type="submit" value="Send" onclick="">
 	</form>
 		 <li>Jill</li>
 		 <li>Eve</li>
@@ -72,12 +72,12 @@
 	  <div class="w3-bar-item w3-hover-green">스페인</div>
 	  <div class="w3-bar-item w3-hover-blue">포르투갈</div>
 	</div>
-	<img src="../Users/student/Desktop/이태리.jpg" width="1000" height="667" border="0" alt="">
-	<img class="w3-hover-opacity" src="../Machine_Learnig/Chatbot/jswork_EditPlus/FF.png" width="80" height="80" border="0" alt="">
-	<img src="../Machine_Learnig/Chatbot/jswork_EditPlus/google.png" width="80" height="80" border="0" alt="">
-	<img src="../Machine_Learnig/Chatbot/jswork_EditPlus/ie.png" width="80" height="80" border="0" alt="">
-	<img src="../Machine_Learnig/Chatbot/jswork_EditPlus/Opera.png" width="80" height="80" border="0" alt="">
-	<img src="../Machine_Learnig/Chatbot/jswork_EditPlus/Safari.png" width="80" height="80" border="0" alt="">
+	<img src="이태리.jpg" width="1000" height="667" border="0" alt="">
+	<img src="FF.png" width="80" height="80" border="0" alt="">
+	<img src="google.png" width="80" height="80" border="0" alt="">
+	<img src="ie.png" width="80" height="80" border="0" alt="">
+	<img src="Opera.png" width="80" height="80" border="0" alt="">
+	<img src="Safari.png" width="80" height="80" border="0" alt="">
 	<br>
 	<div class="mySlides">
 	<div class="w3-container w3-red">
