@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+	//선언적함수
+	function display(name, city){
+		window.document.write("<h1>이름:"+name+"</h1>");
+		window.document.write("<h1>주소:"+city+"</h1>");
+	}
+
+	function display(){
+		window.alert("display");
+
+	}
+	<!-- 동일한 코드가 있더라도 맨 마지막의 display()만 열린다. -->
+
+	function display(){
+		for( var arg in  arguments){
+			document.write("<h1>arg" + arguments[arg]);
+			document.write(point);
+		}//for
+
+	}
+	<!-- 실행되지 않은 코드, 실행한 코드 {function} 모두 {arguments}에 저장~! -->
+
+
+	function myfunc(){
+		//iner function
+		fuction display(){
+		}
+
+	}
+
+
+	//호출부
+	display("홍길동", "서울시", 23);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

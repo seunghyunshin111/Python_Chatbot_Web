@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+
+
+  	//숫자리터럴
+	var j = 10  <!-- literal -->
+	var i = j  <!-- !literal -->
+
+
+	//문자(열) 리터럴
+	var k = 'Hello'
+
+
+	// 함수리터럴, 배열리터럴, 객체리터럴
+	// 익명함수
+	var show = function(name){
+		window.alert('show function');
+	};
+	var show2 = function(name){
+		window.alert('show function2222222');
+	};
+
+
+
+	//선언적함수
+	function display(args){
+		args();  // 함수리터럴() --> 함수 실행!!!!! 실제 함수가 된다!!!
+	}
+	//실행하고자 하는 코드를 인수를 받아서 실행
+	window.display(show2);
+
+	//document.write(show);
+
+	show(name='홍길동')
+	<!-- function에 호출매개변수를 입력하면 진짜 호출식을 불러옴! (아니면, 텍스트만 출력) -->
+	<!-- 코드를 선별해서 실행할 수 있다. 외부에 들어와서 코드를 수행하는 것(Ex. ActiveX), 보완에 취약 -->
+	<!-- JQuery는 자바스크립트를 이용해 웹페이지를 만드는 사람들이 사용. 위의 function 선언적 함수를 jQuery에서 굉장히 유용하게 쓰임 -->
+
+
+
+	//배열리터럴
+	var arr = [1, 2.5, 'Hello', function(){},[4, 5, 6]]  //Index 접근법
+	//arr[0]
+
+
+	//객체리터럴  
+	var obj={
+		name:'홍길동',                                     // Key , Value 접근법
+		age: 30,
+		display:function(){                              // 익명함수 쓰면, 값으로 인정해 줌!
+			document.write(name);
+
+		},
+		moveUp:function(){
+
+		}
+
+	};
+
+	
+	obj.display()
+
+
+  </script>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  
+ </body>
+</html>
