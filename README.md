@@ -1,6 +1,5 @@
 # Web_Developer
 <br>
-<br>
 
 ## Chatbot + Python + JavaScript 
 
